@@ -74,17 +74,26 @@ h1 {
 
 }
 
-@media (max-width:451px) {
+@media (max-width:451px) and  (min-width:356px) {
     h1 {
         right:30%;
     }
-
-
     .container .row .col .ul {
-        right: 25.3%;
+        right: 24.3%;
 
     }
 }
+@media (max-width:355px) {
+    h1 {
+        right:30%;
+    }
+    .container .row .col .ul {
+        right: 22.3%;
+        text-align: right;
+
+    }
+}
+
 
 .container .row .col a h6 {
     color: #fff;
